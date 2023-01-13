@@ -109,6 +109,23 @@ Now that we’re here, let’s go exploring and take a look around. _Remember:_
 - “ls” lists everything in the directory (use “ls -alt” to see hidden files!)
 - “cd [name]” __changes directory__  to [name]. (use “ cd .. “ to go backwards and “cd ~” to go the base directory!)
 
+Normal "ls" command:
+-------
+***
+![image](https://user-images.githubusercontent.com/106555298/212234307-a8777d6e-9073-4d29-b789-fd91d1c8e8c2.png)
+
+***
+
+
+"ls" command with flags 0_0:
+----------
+
+***
+![image](https://user-images.githubusercontent.com/106555298/212234135-a3545c53-9f27-4a0b-a5f9-34915287105f.png)
+
+***
+
+
 
 
 _The END_
@@ -123,6 +140,6 @@ Some Potential Problems You Might Run Into:
  you need to make sure your ucsd password is reset, and make sure that your “ssh …..” command  is actually your username and not a wrong one
 
 - __My UCSD account can’t be looked up__: 
-Make sure that your username does not include the “@ucsd.edu” part at the end of it, and that your PID starts with A.
+Make sure that your username does not include the “@ucsd.edu” part at the end of it, and that your PID starts with A. Sometimes it can take a really long time to load.
 
 
