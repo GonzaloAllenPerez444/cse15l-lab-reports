@@ -67,6 +67,18 @@ Don’t be alarmed if your terminal looks slightly different from mine; if you a
 To change from powershell to bash (i can’t screenshot this unfortunately :( ), _go to the top bar to view -> command palette._ Inside the command palette, type _“select default profile”_ and click what pops up. Select _“git bash”._ Now open up a new terminal.
 
 
+***
+![changeBash](https://user-images.githubusercontent.com/106555298/212230413-c3f2b869-2679-4a74-84a3-ab83265a9d00.png)
+***
+
+
+You can see this on the right of the terminal. Click on the down arrow and from there you can select to switch from your current terminal to bash, or open a new bash terminal.
+
+
+ 
+PART 3- LOGGING INTO THE SERVER
+===============================
+
 
 
 
