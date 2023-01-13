@@ -33,7 +33,7 @@ You should be met with a screen like this (Note that you might see a yellow bann
 Now, we can “change” (not really changing!) our password from here. Go to the linked Change your password site (either in the yellow banner or on the page)
 
 
-Select the option that “I know my password, and wish to change it” Enter your current password, and put the same password down below. You would think this might cause an error, but you’ll be ok. It might take upwards of 15 minutes to reset, so stay calm and don’t bully your computer in the meantime.
+Select the option that “I know my password, and wish to change it” Enter your current password, and put the same password down below. You would think this might cause an error, but you’ll be ok. We only need to change the course-specific password, so if there's an option to not change your UCSD-wide password, you can select it. It might take upwards of 15 minutes to reset, so stay calm and don’t bully your computer in the meantime.
 
 
 PART 2- OPENING UP OUR TERMINAL IN VSCODE
