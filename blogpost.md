@@ -3,7 +3,7 @@ How To Log Into ieng6 - By Gonzalo Allen-Perez
                                                                
                                                                
 Make sure to read this slow and in order- it will 
-save you some headaches, believe me.
+save you some headaches, believe me. Check the _"potential problems you might run into"_ section at the bottom if you're having issues. 
                                                                
 __What The Heck Are We Doing?__
 
@@ -106,8 +106,23 @@ PART 4- RECONNAISSANCE
 
 Now that we’re here, let’s go exploring and take a look around. _Remember:_
 
-- “Ls” lists everything in the directory (use “ls -alt” to see hidden files!)
+- “ls” lists everything in the directory (use “ls -alt” to see hidden files!)
 - “cd [name]” __changes directory__  to [name]. (use “ cd .. “ to go backwards and “cd ~” to go the base directory!)
 
+
+
+_The END_
+
+***
+***
+
+Some Potential Problems You Might Run Into:
+-------------------------------------------
+
+- __Password doesn’t get accepted__:
+ you need to make sure your ucsd password is reset, and make sure that your “ssh …..” command  is actually your username and not a wrong one
+
+- __My UCSD account can’t be looked up__: 
+Make sure that your username does not include the “@ucsd.edu” part at the end of it, and that your PID starts with A.
 
 
