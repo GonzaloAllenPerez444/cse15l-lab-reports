@@ -23,4 +23,8 @@ Log in with your ucsd email WITHOUT THE “@ucsd.edu” And your student PID
 You should be met with a screen like this (Note that you might see a yellow banner telling you to change your password, this is fine :) ). The red circled box contains your username to log into the server. Save it somewhere you can access it easily.
 
 
+***
 
+![UCSD LOGIN](https://user-images.githubusercontent.com/106555298/212228786-e06791dc-b05f-40e1-a8b3-023b5ea564ca.png)
+
+***
