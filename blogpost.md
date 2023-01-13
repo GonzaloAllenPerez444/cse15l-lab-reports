@@ -28,3 +28,34 @@ You should be met with a screen like this (Note that you might see a yellow bann
 ![UCSD LOGIN](https://user-images.githubusercontent.com/106555298/212228786-e06791dc-b05f-40e1-a8b3-023b5ea564ca.png)
 
 ***
+
+
+Now, we can “change” (not really changing!) our password from here. Go to the linked Change your password site (either in the yellow banner or on the page)
+
+
+Select the option that “I know my password, and wish to change it” Enter your current password, and put the same password down below. You would think this might cause an error, but you’ll be ok. It might take upwards of 15 minutes to reset, so stay calm and don’t bully your computer in the meantime.
+
+
+PART 2- OPENING UP OUR TERMINAL IN VSCODE
+=========================================
+
+Now that we have our credentials in order, we should open (I’m assuming you have used vscode in the past for CSE 11 or 8B, but if not just go to the Vscode website, download the corresponding one for your operating system, and run the file once it finishes downloading.)
+
+***
+![DownloadScreen](https://user-images.githubusercontent.com/106555298/212229471-702cceef-cc8b-4f1b-8d8a-b257fa8c7992.png)
+***
+
+
+
+Open VSCode up, and you should be met with this screen. 
+
+***
+![Vscode main screen](https://user-images.githubusercontent.com/106555298/212229639-1e7acb84-270d-40f9-be41-0ddabafecf6d.jpg)
+
+***
+
+
+
+
+
+
