@@ -80,5 +80,34 @@ PART 3- LOGGING INTO THE SERVER
 ===============================
 
 
+Now that we’ve gotten our terminal in order,  paste “ssh” plus YOUR USERNAME FROM BEFORE + “@ieng6”  into the terminal. This makes a request to connect with the CSE basement server under your username. It should look something like this, with your specific username instead:
+
+"___ssh cs15lwi23zz@ieng6.ucsd.edu___"
+
+
+You should be met with this:
+
+***
+![login1](https://user-images.githubusercontent.com/106555298/212231030-87b896b6-82e5-4603-b898-192e5d0b0443.png)
+
+***
+
+
+Now put in your __RESET__ password and submit; You could be met with a little warning, feel free to just write “yes” and hit enter.
+And Now as those Hackers in movies say, _"We’re In!”_ Congrats! Down below is what the bottom of your screen should look like:
+
+***
+![loggedin](https://user-images.githubusercontent.com/106555298/212231453-0d6d3a32-4b70-4aa1-8b65-6ef094cc8cce.png)
+***
+
+PART 4- RECONNAISSANCE
+======================
+
+
+Now that we’re here, let’s go exploring and take a look around. _Remember:_
+
+- “Ls” lists everything in the directory (use “ls -alt” to see hidden files!)
+- “cd [name]” __changes directory__  to [name]. (use “ cd .. “ to go backwards and “cd ~” to go the base directory!)
+
 
 
