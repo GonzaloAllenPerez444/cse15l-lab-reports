@@ -54,6 +54,17 @@ Open VSCode up, and you should be met with this screen.
 
 ***
 
+Go to the taskbar at the top of the screen, and select -> terminal -> New Terminal. Something like this will pop up:
+
+***
+![TerminalPic](https://user-images.githubusercontent.com/106555298/212229863-e16379d8-8b3e-44b0-aff1-2cd91e2dc1f1.png)
+***
+
+Don’t be alarmed if your terminal looks slightly different from mine; if you are on a windows or mac, you might be using “powershell” or the mac terminal, whereas the above image is using the “bash” command line. You don’t have to change it for this tutorial, but I would recommend it since it makes life on the command line easier in pretty much every way.
+
+
+
+To change from powershell to bash (i can’t screenshot this unfortunately :( ), _go to the top bar to view -> command palette._ Inside the command palette, type _“select default profile”_ and click what pops up. Select _“git bash”._ Now open up a new terminal.
 
 
 
