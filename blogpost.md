@@ -111,7 +111,7 @@ PART 3- LOGGING INTO THE SERVER
 ===============================
 
 
-Now that we’ve gotten our terminal in order,  paste “ssh” plus YOUR USERNAME FROM BEFORE + `@ieng6`  into the terminal. This makes a request to connect with the CSE basement server under your username. It should look something like this, with your specific username instead:
+Now that we’ve gotten our terminal in order,  paste `ssh` plus `YOUR USERNAME FROM BEFORE` + `@ieng6`  into the terminal. This makes a request to connect with the CSE basement server under your username. It should look something like this, with your specific username instead:
 
 `ssh cs15lwi23zz@ieng6.ucsd.edu`
 
