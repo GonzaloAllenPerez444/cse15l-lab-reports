@@ -87,6 +87,7 @@ Go to the taskbar at the top of the screen, and `select -> terminal -> New Termi
 
 ***
 ![TerminalPic](https://user-images.githubusercontent.com/106555298/212229863-e16379d8-8b3e-44b0-aff1-2cd91e2dc1f1.png)
+
 ***
 
 Don’t be alarmed if your terminal looks slightly different from mine; if you are on a windows or mac, you might be using “powershell” or the mac terminal, whereas the above image is using the “bash” command line. You don’t have to change it for this tutorial, but I would recommend it since it makes life on the command line easier in pretty much every way.
@@ -98,6 +99,7 @@ To change from powershell to bash (i can’t screenshot this unfortunately :( ),
 
 ***
 ![changeBash](https://user-images.githubusercontent.com/106555298/212230413-c3f2b869-2679-4a74-84a3-ab83265a9d00.png)
+
 ***
 
 
@@ -127,6 +129,7 @@ And Now as those Hackers in movies say, _"We’re In!”_ Congrats! Down below i
 
 ***
 ![loggedin](https://user-images.githubusercontent.com/106555298/212231453-0d6d3a32-4b70-4aa1-8b65-6ef094cc8cce.png)
+
 ***
 
 PART 4- RECONNAISSANCE
