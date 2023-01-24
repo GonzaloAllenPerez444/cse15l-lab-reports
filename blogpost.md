@@ -67,9 +67,9 @@ See the terms and conditions. If you can't accept them, take it up with the VSco
 
 ***
 You can select whichever options seem useful to you, but I would suggest you try the ones I've selected above. 
--Creating a desktop icon is useful to open VScode easier from the home page
--"Register Code as an Editor for supported file types" is critical as it lets you open files of code in VSCode from the internet in a straightforward way.
--"add to PATH" basically lets your programs or commands from the command line look for files from where you've downloaded vscode. It would definitely come in clutch and there's no real downside to doing it.
+* Creating a desktop icon is useful to open VScode easier from the home page
+* _"Register Code as an Editor for supported file types"_ is critical as it lets you open files of code in VSCode from the internet in a straightforward way.
+* _"add to PATH"_ basically lets your programs or commands from the command line look for files from where you've downloaded vscode. It would definitely come in clutch and there's no real downside to doing it.
 
 After selecting your additional tasks, go to the next screen and hit install!
 ***
