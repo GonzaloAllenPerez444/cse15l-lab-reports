@@ -93,7 +93,7 @@ Don’t be alarmed if your terminal looks slightly different from mine; if you a
 
 
 
-To change from powershell to bash (i can’t screenshot this unfortunately :( ), _go to the top bar to view -> command palette._ Inside the command palette, type _“select default profile”_ and click what pops up. Select _“git bash”._ Now open up a new terminal.
+To change from powershell to bash (i can’t screenshot this unfortunately :( ), _go to the top bar to `view -> command palette` Inside the command palette, type `select default profile` and click what pops up. Select `git bash`. Now open up a new terminal.
 
 
 ***
@@ -111,7 +111,7 @@ PART 3- LOGGING INTO THE SERVER
 
 Now that we’ve gotten our terminal in order,  paste “ssh” plus YOUR USERNAME FROM BEFORE + “@ieng6”  into the terminal. This makes a request to connect with the CSE basement server under your username. It should look something like this, with your specific username instead:
 
-`___ssh cs15lwi23zz@ieng6.ucsd.edu___`
+`ssh cs15lwi23zz@ieng6.ucsd.edu`
 
 
 You should be met with this:
