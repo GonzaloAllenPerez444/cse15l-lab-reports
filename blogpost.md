@@ -7,7 +7,7 @@ save you some headaches, believe me. Check the _"potential problems you might ru
                                                                
 __What The Heck Are We Doing?__
 
-In this lab we are connecting to a remote server in the CSE basement using the “ssh” command in the vscode terminal.
+In this lab we are connecting to a remote server in the CSE basement using the `ssh` command in the vscode terminal.
 
 PART 1- Finding your Username and Changing your Password
 ========================================================
