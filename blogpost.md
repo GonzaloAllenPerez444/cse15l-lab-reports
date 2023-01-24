@@ -39,7 +39,11 @@ Select the option that “I know my password, and wish to change it” Enter you
 PART 2- OPENING UP OUR TERMINAL IN VSCODE
 =========================================
 
-Now that we have our credentials in order, we should open (I’m assuming you have used vscode in the past for CSE 11 or 8B, but if not just go to the Vscode website, download the corresponding one for your operating system, and run the file once it finishes downloading.)
+Now that we have our credentials in order, we should download and open the best* code editor, VSCode. With VScode, we can open up a terminal that enables us to connect to the server.
+
+To download VSCode, visit this link:
+
+
 
 ***
 ![DownloadScreen](https://user-images.githubusercontent.com/106555298/212229471-702cceef-cc8b-4f1b-8d8a-b257fa8c7992.png)
