@@ -111,7 +111,7 @@ PART 3- LOGGING INTO THE SERVER
 ===============================
 
 
-Now that we’ve gotten our terminal in order,  paste “ssh” plus YOUR USERNAME FROM BEFORE + “@ieng6”  into the terminal. This makes a request to connect with the CSE basement server under your username. It should look something like this, with your specific username instead:
+Now that we’ve gotten our terminal in order,  paste “ssh” plus YOUR USERNAME FROM BEFORE + `@ieng6`  into the terminal. This makes a request to connect with the CSE basement server under your username. It should look something like this, with your specific username instead:
 
 `ssh cs15lwi23zz@ieng6.ucsd.edu`
 
@@ -124,7 +124,7 @@ You should be met with this:
 ***
 
 
-Now put in your __RESET__ password and submit; You could be met with a little warning, feel free to just write “yes” and hit enter.
+Now put in your __RESET__ password and submit; You could be met with a little warning, feel free to just write `yes` and hit enter.
 And Now as those Hackers in movies say, _"We’re In!”_ Congrats! Down below is what the bottom of your screen should look like:
 
 ***
@@ -172,6 +172,6 @@ Some Potential Problems You Might Run Into:
  you need to make sure your ucsd password is reset, and make sure that your `ssh …..` command  is actually your username and not a wrong one
 
 - __My UCSD account can’t be looked up__: 
-Make sure that your username does not include the “@ucsd.edu” part at the end of it, and that your PID starts with A. Sometimes it can take a really long time to load.
+Make sure that your username does not include the "@ucsd.edu" part at the end of it, and that your PID starts with A. Sometimes it can take a really long time to load.
 
 
