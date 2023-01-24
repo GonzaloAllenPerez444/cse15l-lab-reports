@@ -41,7 +41,7 @@ PART 2- OPENING UP OUR TERMINAL IN VSCODE
 
 Now that we have our credentials in order, we should download and open the best* code editor, VSCode. With VScode, we can open up a terminal that enables us to connect to the server.
 
-To download VSCode, visit this link:
+To download VSCode, visit this link: https://code.visualstudio.com/download
 
 
 
