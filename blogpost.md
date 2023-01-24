@@ -136,7 +136,7 @@ PART 4- RECONNAISSANCE
 Now that we’re here, let’s go exploring and take a look around. _Remember:_
 
 - `ls` lists everything in the directory (use `ls -alt` to see hidden files!)
-- `cd [name of folder]` __changes directory__  to `[name]`. (use ` cd .. ` to go backwards and `cd ~` to go the base directory!)
+- `cd [name of folder]` __changes directory__  to `[name of folder]`. (use ` cd .. ` to go backwards and `cd ~` to go the base directory!)
 
 Normal `ls` command:
 -------
