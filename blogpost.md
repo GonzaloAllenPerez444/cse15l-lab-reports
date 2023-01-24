@@ -83,7 +83,7 @@ Now that VScode is good to go, open it up, and you should be met with this scree
 
 ***
 
-Go to the taskbar at the top of the screen, and select -> terminal -> New Terminal. Something like this will pop up:
+Go to the taskbar at the top of the screen, and `select -> terminal -> New Terminal`. Something like this will pop up:
 
 ***
 ![TerminalPic](https://user-images.githubusercontent.com/106555298/212229863-e16379d8-8b3e-44b0-aff1-2cd91e2dc1f1.png)
