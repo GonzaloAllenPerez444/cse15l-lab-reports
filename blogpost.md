@@ -50,28 +50,32 @@ To download VSCode, visit this link: https://code.visualstudio.com/download. You
 
 Click on the corresponding box for your operating system (Windows, Mac, or Linux) to download the installer (it should be a .exe file around 85 megabytes). I have Windows so this is what it looks like:
 
-
+***
 ![libraryscreen](https://user-images.githubusercontent.com/106555298/214372103-e8a0344e-c3c1-44d3-8faf-3028aeb57269.png)
 
-
+***
 Save it in a good spot, and when it finishes downloading, right click on the file and select "open"; You'll encounter this screen:
 
+***
 ![vsccodesetup](https://user-images.githubusercontent.com/106555298/214372614-d4c84d25-47e2-4a60-b88d-01827349ef41.png)
 
+***
 See the terms and conditions. If you can't accept them, take it up with the VScode legal team, but otherwise select that you agree and keep moving. You'll then be met with the additional tasks menu:
 
+***
 ![additionaloptions](https://user-images.githubusercontent.com/106555298/214373255-c20cf8be-8535-4fb6-a3a6-b04cc3bc1370.png)
 
+***
 You can select whichever options seem useful to you, but I would suggest you try the ones I've selected above. 
 -Creating a desktop icon is useful to open VScode easier from the home page
 -"Register Code as an Editor for supported file types" is critical as it lets you open files of code in VSCode from the internet in a straightforward way.
 -"add to PATH" basically lets your programs or commands from the command line look for files from where you've downloaded vscode. It would definitely come in clutch and there's no real downside to doing it.
 
 After selecting your additional tasks, go to the next screen and hit install!
-
+***
 ![finalinstall](https://user-images.githubusercontent.com/106555298/214375057-9e2e4e3c-e4c7-4cdf-85dd-513981109ca1.png)
 
-
+***
 Now that VScode is good to go, open it up, and you should be met with this screen. 
 
 ***
