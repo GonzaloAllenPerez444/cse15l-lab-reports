@@ -203,4 +203,6 @@ PART 3
 One cool thing I learned in Lab in week 3 was how to test if a certain error gets thrown in Junit. 
 Before, I was using a bunch of convoluted Try-Catch blocks to test for errors in my CSE 12 PAs, but
 one of my awesome tutors (shoutout Angela) helped my figure out an elegant way to test for them
-that is easy to understand and doesn't make the testers unstable. 
+that is easy to understand and doesn't make the testers unstable.  In case you're wondering, 
+the way to do this is to add this after the @Test annotation
+@Test (expected = NullPointerException.class)
