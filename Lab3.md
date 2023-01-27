@@ -81,7 +81,7 @@ __Input 1__: `localhost:[port]/add-message?s=addfirst`
 
 The methods being called here is `public String handleRequest(URI url)`. 
 The argument, `url` is the url starting with the path `add-message` 
-followed by the query `?s=addfirst`, where `s` is the key and `addfirst` is the value.
+followed by the query `?s=addfirst`, where `s` is the paramter and `addfirst` is the value.
 
 The one and only class variable is `total` which keeps track of our master string and updates it as we make additions.
 
@@ -100,4 +100,21 @@ our program won't crash if we give it unintended input like ints or null, as see
 
 ***
 
+__Input 2__: `localhost:[port]/add-message?s=addfirst`
 
+***
+
+`handleRequest(url)` is being called here again, except the `url` variable is slightly different. 
+It has the same path and a valid string, but the paramter for the query is `p` instead of `s`.
+
+The class variable total doesn't get changed here. Here's why:
+
+Since we only want the user to pass in data under the "s" parameter, we make sure to monitor if they attempt 
+to pass data under any other paramter. While this strictly wouldn't break our parameter, it's a bad idea to 
+as they could pass in malicious code as the query string, or our code would break later if we had different 
+querystrings for different things. In this instance, the server returns the message "String Not Valid".
+
+***
+
+PART 2
+====
