@@ -113,12 +113,12 @@ __Input 2__: `localhost:[port]/add-message?s=addfirst`
 `handleRequest(url)` is being called here again, except the `url` variable is slightly different. 
 It has the same path and a valid string, but the paramter for the query is `p` instead of `s`.
 
-The class variable total doesn't get changed here. Here's why:
+The class variable `total` doesn't get changed here. Here's why:
 
-Since we only want the user to pass in data under the "s" parameter, we make sure to monitor if they attempt 
+Since we only want the user to pass in data under the `s` parameter, we make sure to monitor if they attempt 
 to pass data under any other paramter. While this strictly wouldn't break our parameter, it's a bad idea to 
 as they could pass in malicious code as the query string, or our code would break later if we had different 
-querystrings for different things. In this instance, the server returns the message "String Not Valid".
+querystrings for different things. In this instance, the server returns the message `String Not Valid`.
 
 ***
 
