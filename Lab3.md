@@ -129,12 +129,14 @@ Failure-Inducing Input
 ----
 
 ```
+@Test
 public void testReverseInPlace{
 int [] list1 = {12,48,24,55};
     ArrayExamples.reverseInPlace((list1));
     assertArrayEquals(new int [] {55,24,48,12}, list1);}
 ```
 No Failure Input:
+---
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -143,3 +145,12 @@ No Failure Input:
     assertArrayEquals(new int[]{1,2,1}, palindrome);
 	}
 ```
+
+The Symptom:
+
+***
+
+![junit](https://user-images.githubusercontent.com/106555298/215002199-cbcd24ef-f4e6-4416-9051-423d3d1a7365.png)
+
+
+***
