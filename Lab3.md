@@ -58,6 +58,24 @@ public class StringServer {
 ```
 ***
 Here's an image of it if it's easier to look at:
+
+***
+
 ![StringServerCode](https://user-images.githubusercontent.com/106555298/214987380-8f315dad-768e-4065-9471-02a98edf135a.png)
 
 ***
+
+My Server in Action
+----
+
+Here are two requests to the server and whats going on
+
+***
+
+__Input 1__: `localhost:[port]/add-message?s=addfirst`
+
+***
+
+![Screenshot1](https://user-images.githubusercontent.com/106555298/214988021-ab601de0-4723-484a-8984-786e736af3ca.png)
+
+*** 
