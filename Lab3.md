@@ -56,3 +56,8 @@ public class StringServer {
 }
 
 ```
+***
+Here's an image of it if it's easier to look at:
+![StringServerCode](https://user-images.githubusercontent.com/106555298/214987380-8f315dad-768e-4065-9471-02a98edf135a.png)
+
+***
