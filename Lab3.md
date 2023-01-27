@@ -124,3 +124,22 @@ querystrings for different things. In this instance, the server returns the mess
 
 PART 2
 ====
+
+Failure-Inducing Input
+----
+
+```
+public void testReverseInPlace{
+int [] list1 = {12,48,24,55};
+    ArrayExamples.reverseInPlace((list1));
+    assertArrayEquals(new int [] {55,24,48,12}, list1);}
+```
+No Failure Input:
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] palindrome = {1,2,1  };
+    ArrayExamples.reverseInPlace(palindrome);
+    assertArrayEquals(new int[]{1,2,1}, palindrome);
+	}
+```
