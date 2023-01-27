@@ -154,3 +154,36 @@ The Symptom:
 
 
 ***
+
+Bug (Before):
+----
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+***
+
+Bug (After):
+---
+
+```
+static void reverseInPlace(int[] arr) {
+    int[] temp  = new int[arr.length];
+    for (int i = 0; i < arr.length; i ++)
+    {
+        temp[i] = arr[arr.length - 1 - i];
+        
+    };
+    
+   
+    for (int i = 0; i < temp.length; i++)
+    {arr[i] = temp[i];};
+   
+  }
+```
+
