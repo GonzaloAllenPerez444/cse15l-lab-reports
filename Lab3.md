@@ -187,3 +187,10 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
+__Why This Fixes The Issue__
+
+Before, the list would iterate from the back to the front, but would reference the changed values at the front 
+of the list in order to decide what to back at the front of the list. This effectively deletetd all record of the front 
+of the list as it got overwritten. To fix this, we make a seperate deep copy of the original array going backwards
+then reassign the original array to the deep one. It's important not to just change the reference of the original array
+to the new one as the object at the original memory address stil gets returned, so it'll look like no changes were made at all. 
