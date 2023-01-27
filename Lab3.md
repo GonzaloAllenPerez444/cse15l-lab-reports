@@ -96,8 +96,7 @@ our program won't crash if we give it unintended input like ints or null, as see
 
 ***
 
-![Screenshot3](https://user-images.githubusercontent.com/106555298/214991694-98fe92a2-d07e-46a8-90e0-9be83587daa2.png)
-
+![Screenshot4](https://user-images.githubusercontent.com/106555298/214991846-4d8f942a-0ec8-424b-9f3f-540c2da78510.png)
 
 ***
 
