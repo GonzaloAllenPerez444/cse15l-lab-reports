@@ -91,6 +91,14 @@ look at it's value which is "addfirst". We then add `"\n" + [addfirst] ` to tota
 and return it's updated form.
 
 
+It's worth noting that no matter what we pass to the parameter `s`, it will get parsed as a string. This means 
+our program won't crash if we give it unintended input like ints or null, as seen below:
 
+***
+
+![Screenshot3](https://user-images.githubusercontent.com/106555298/214991694-98fe92a2-d07e-46a8-90e0-9be83587daa2.png)
+
+
+***
 
 
