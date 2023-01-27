@@ -19,8 +19,6 @@ class Handler implements URLHandler {
     
     String total = "";
     
-    ArrayList<String> masterList = new ArrayList<String>();
-    
 
     public String handleRequest(URI url) {
         
@@ -61,14 +59,15 @@ Here's an image of it if it's easier to look at:
 
 ***
 
-![StringServerCode](https://user-images.githubusercontent.com/106555298/214987380-8f315dad-768e-4065-9471-02a98edf135a.png)
+![StringServerCode](https://user-images.githubusercontent.com/106555298/214990735-72132937-5b9e-454c-992b-5587f59dc917.png)
+
 
 ***
 
 My Server in Action
 ----
 
-Here are two requests to the server and whats going on
+Here are two requests to the server and what is going on
 
 ***
 
@@ -79,3 +78,19 @@ __Input 1__: `localhost:[port]/add-message?s=addfirst`
 ![Screenshot1](https://user-images.githubusercontent.com/106555298/214988021-ab601de0-4723-484a-8984-786e736af3ca.png)
 
 *** 
+
+The methods being called here is `public String handleRequest(URI url)`. 
+The argument, `url` is the url starting with the path `add-message` 
+followed by the query `?s=addfirst`, where `s` is the key and `addfirst` is the value.
+
+The one and only class variable is `total` which keeps track of our master string and updates it as we make additions.
+
+This how the variable `total` gets changed with our call to `handleRequest()`. We first 
+get the paramters from the query, and since it matches with the paramater "s", we 
+look at it's value which is "addfirst". We then add `"\n" + [addfirst] ` to total 
+and return it's updated form.
+
+
+
+
+
