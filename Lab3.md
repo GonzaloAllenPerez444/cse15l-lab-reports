@@ -194,3 +194,13 @@ of the list in order to decide what to back at the front of the list. This effec
 of the list as it got overwritten. To fix this, we make a seperate deep copy of the original array going backwards
 then reassign the original array to the deep one. It's important not to just change the reference of the original array
 to the new one as the object at the original memory address stil gets returned, so it'll look like no changes were made at all. 
+
+***
+
+PART 3 
+===
+
+One cool thing I learned in Lab in week 3 was how to test if a certain error gets thrown in Junit. 
+Before, I was using a bunch of convoluted Try-Catch blocks to test for errors in my CSE 12 PAs, but
+one of my awesome tutors (shoutout Angela) helped my figure out an elegant way to test for them
+that is easy to understand and doesn't make the testers unstable. 
