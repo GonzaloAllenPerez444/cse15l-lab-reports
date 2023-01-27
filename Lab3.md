@@ -96,11 +96,17 @@ our program won't crash if we give it unintended input like ints or null, as see
 
 ***
 
-![Screenshot4](https://user-images.githubusercontent.com/106555298/214991846-4d8f942a-0ec8-424b-9f3f-540c2da78510.png)
+![various](https://user-images.githubusercontent.com/106555298/214993264-b60f18d7-4124-4a93-9163-ccfcdca401db.png)
+
 
 ***
 
 __Input 2__: `localhost:[port]/add-message?s=addfirst`
+
+***
+
+![Screenshot 5](https://user-images.githubusercontent.com/106555298/214993373-b10da2d8-2afb-4e0b-8abf-d60942088489.png)
+
 
 ***
 
