@@ -186,6 +186,62 @@ Under Mongol Rule
 Unity Eludes the Chinese
 Imposing the New Order
 ```
-
-If I was trying to build a novel without the letter A (which is apparently a real things authors like to do like in this cool book [Gadsby](https://www.abebooks.com/books/gadsby-lipogram/)
+The flag -v actually inverts the search, which can be equally powerful itself.
+If I was trying to build a novel without the letter A (which is apparently a real things authors like to do like in this cool book [Gadsby](https://www.abebooks.com/books/gadsby-lipogram/)),
  I could look up inspiration from a file in a directory like this, which shows me each line in a file without the letter a.
+
+Example 6:
+---
+
+```
+grep -r -v -l  "Fuck"
+
+O:
+OUP/Abernathy/ch1.txt
+OUP/Abernathy/ch14.txt
+OUP/Abernathy/ch15.txt
+OUP/Abernathy/ch2.txt
+OUP/Abernathy/ch3.txt
+OUP/Abernathy/ch6.txt
+OUP/Abernathy/ch7.txt
+OUP/Abernathy/ch8.txt
+OUP/Abernathy/ch9.txt
+OUP/Berk/ch1.txt
+OUP/Berk/ch2.txt
+OUP/Berk/CH4.txt
+OUP/Berk/ch7.txt
+OUP/Castro/chA.txt
+OUP/Castro/chB.txt
+OUP/Castro/chC.txt
+OUP/Castro/chL.txt
+OUP/Castro/chM.txt
+OUP/Castro/chN.txt
+OUP/Castro/chO.txt
+OUP/Castro/chP.txt
+OUP/Castro/chQ.txt
+OUP/Castro/chR.txt
+OUP/Castro/chV.txt
+OUP/Castro/chW.txt
+OUP/Castro/chY.txt
+OUP/Castro/chZ.txt
+OUP/Fletcher/ch1.txt
+OUP/Fletcher/ch10.txt
+OUP/Fletcher/ch2.txt
+OUP/Fletcher/ch5.txt
+OUP/Fletcher/ch6.txt
+OUP/Fletcher/ch9.txt
+OUP/Kauffman/ch1.txt
+OUP/Kauffman/ch10.txt
+OUP/Kauffman/ch3.txt
+OUP/Kauffman/ch4.txt
+OUP/Kauffman/ch5.txt
+OUP/Kauffman/ch6.txt
+OUP/Kauffman/ch7.txt
+OUP/Kauffman/ch8.txt
+OUP/Kauffman/ch9.txt
+OUP/Rybczynski/ch1.txt
+OUP/Rybczynski/ch2.txt
+OUP/Rybczynski/ch3.txt
+```
+
+If we needed to censor all of our Non-fiction works by returning all chapters without the f-word in them, it would look something like the above; -v inverst the search for everything without the n-word in it. 
