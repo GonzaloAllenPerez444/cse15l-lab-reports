@@ -245,3 +245,37 @@ OUP/Rybczynski/ch3.txt
 ```
 
 If we needed to censor all of our Non-fiction works by returning all chapters without the f-word in them, it would look something like the above; -v inverst the search for everything without the n-word in it. 
+
+
+Option 4: -r
+---
+
+Example 7:
+---
+
+```
+grep -r "Hamburger" 
+travel_guides/berlitz2/Berlin-WhereToGo.txt:Hamburger Bahnhof Museum
+```
+
+The -r flag is absolutely powerful as it lets you recursively search every file in a directory for a word and not just a single file. Here we power through every line in every file in the entire written_2 to find our sacred word "Hamburger", returning a single beautiful file.
+
+Example 8:
+---
+
+```
+Grep -r  -l “Drama”
+
+travel_guides/berlitz1/WhatToGreek.txt
+travel_guides/berlitz1/WhatToMadeira.txt
+travel_guides/berlitz1/WhatToMalaysia.txt
+travel_guides/berlitz1/WhereToFrance.txt
+travel_guides/berlitz1/WhereToIndia.txt
+travel_guides/berlitz2/Bali-WhatToDo.txt
+travel_guides/berlitz2/Boston-WhereToGo.txt
+travel_guides/berlitz2/Poland-WhatToDo.txt
+
+```
+
+If you’re a person who can’t get enough drama and wants to keep up date with all of the ancient drama, this command is for you. It returns every file in the entire directory in which the word "drama" is inside. 
+
