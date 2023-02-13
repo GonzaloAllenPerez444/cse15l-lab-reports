@@ -171,4 +171,21 @@ Vallarta-WhatToDo.txt:3
 Vallarta-WhereToGo.txt:12
 ```
 
-Here I play the role of an obsessive gastrologist and try to find every file in the berlitz2 directory that mentions “food”
+Here I play the role of an obsessive gastrologist and try to find every file in the berlitz2 directory that mentions “food”; it lists out the count for each document individually which would be super useful if you were trying to rank the count for each of them. 
+
+Option 3: grep -v
+---
+
+Example 5:
+----
+```
+grep -i -v "a" China-History.txt
+
+The Chinese Empire
+Under Mongol Rule
+Unity Eludes the Chinese
+Imposing the New Order
+```
+
+If I was trying to build a novel without the letter A (which is apparently a real things authors like to do like in this cool book [Gadsby](https://www.abebooks.com/books/gadsby-lipogram/)
+ I could look up inspiration from a file in a directory like this, which shows me each line in a file without the letter a.
