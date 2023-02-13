@@ -70,3 +70,14 @@ PuertoRico-WhatToDo.txt
 PuertoRico-WhereToGo.txt
 Vallarta-History.txt
 ```
+
+In this case, I'm playing the role of a spain fanatic trying to look for any and all reference of the country in the berlitz 2. It just lists the file names which is useful for a big picture view of what files fit the criteria.
+
+Option 2: grep -c
+---
+Example 3:
+
+```
+grep "e" -c -i  Barcelona-WhatToDo.txt 
+39
+```
