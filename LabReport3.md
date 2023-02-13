@@ -3,6 +3,7 @@ Command: Grep
 
 Option 1: grep -l
 ---------
+Source: man grep command
 
 Example 1:
 -----
@@ -29,7 +30,7 @@ WhereToMadrid.txt
 
 ```
 
--l is really useful because it just prints out the file names that contain the word, so it enables you to search a lot of files really efficiently. in the example above, I printed every file that had the word "Italy" in it, which could've taken more than a few minutes to test every file individually. 
+-l is really useful because it just prints out the file names that contain the word, so it enables you to see a list of files that fit the criteria in order to operate on them later. in the example above, I printed every file that had the word "Italy" in it, which could've taken more than a few minutes to test every file individually. 
 
 Exmple 2:
 ----
@@ -71,10 +72,12 @@ PuertoRico-WhereToGo.txt
 Vallarta-History.txt
 ```
 
-In this case, I'm playing the role of a spain fanatic trying to look for any and all reference of the country in the berlitz 2. It just lists the file names which is useful for a big picture view of what files fit the criteria.
+In this case, I'm playing the role of a spain fanatic trying to look for any and all reference of the country in the berlitz2 directory. It just lists the file names which is useful for a big picture view of what files fit the criteria.
 
 Option 2: grep -c
 ---
+Source: ChatGPT!
+Prompt: what are some interesting ways to alter a grep command?
 Example 3:
 ---
 ```
@@ -175,6 +178,8 @@ Here I play the role of an obsessive gastrologist and try to find every file in 
 
 Option 3: grep -v
 ---
+Source: ChatGPT!
+Prompt: what are some interesting ways to alter a grep command?
 
 Example 5:
 ----
@@ -244,11 +249,12 @@ OUP/Rybczynski/ch2.txt
 OUP/Rybczynski/ch3.txt
 ```
 
-If we needed to censor all of our Non-fiction works by returning all chapters without the f-word in them, it would look something like the above; -v inverst the search for everything without the n-word in it. 
+If we needed to censor all of our Non-fiction works by returning all chapters without the f-word in them, it would look something like the above; -v inverst the search for everything without the f-word in it. 
 
 
 Option 4: -r
 ---
+Source: man grep
 
 Example 7:
 ---
