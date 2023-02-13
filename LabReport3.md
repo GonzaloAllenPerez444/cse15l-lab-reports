@@ -283,5 +283,5 @@ travel_guides/berlitz2/Poland-WhatToDo.txt
 
 ```
 
-If you’re a person who can’t get enough drama and wants to keep up date with all of the ancient drama, this command is for you. It returns every file in the entire directory in which the word "drama" is inside. 
+If you’re a person who can’t get enough gossip and wants to keep up date with all of the ancient drama, this command is for you. It returns every file in the entire directory in which the word "drama" is inside. 
 
