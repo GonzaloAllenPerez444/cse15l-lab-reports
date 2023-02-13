@@ -1,4 +1,4 @@
-command: Gep
+Command: Grep
 ========
 
 Option 1: grep -l
