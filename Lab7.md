@@ -36,8 +36,8 @@ Step 3
 Keys Pressed:
 `cd l <tab>`
 `nano L <tab>.java`
-`<down> * 42 , <right> * 12, <backspace> 2.`
-`<Crtl + o>, <enter>, <crtl + x>`
+`<down * 42> , <right * 12>, <backspace> 2`
+`<Crtl + o> <enter> <crtl + x>`
 
 ![image](https://user-images.githubusercontent.com/106555298/221094097-cf3d80dc-878a-4a63-b7db-32e25a2bd3a4.png)
 
@@ -46,3 +46,8 @@ Keys Pressed:
 Explanation:here we open up ListExamples.java in the nano text terminal, then navigate to the bug and replace index1 with index2. I experimented with using the `sed` command so we wouldn’t have to open the editor manually,but I couldn’t get it working right.
 
 ---
+
+Step 4
+===
+
+Keys Pressed: `<Ctrl + c> <Ctrl + v>`
