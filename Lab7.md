@@ -11,7 +11,7 @@ Explanation
 ---
 
 This is a whole number of commands all bunched together. We use single quotes to show that there’s multiple commands, then each subsequent command is followed by a semicolon. In order:
-...First we ssh into ieng6. Since we downloaded our public ssh key onto the server, we don’t need to type in our username and password.
-...Next we rm the lab7 directory if there’s already a copy of it.
-...Clone a copy of the github repository
-...Cd into the directory and compile and run the JUNIT tests 
+* First we ssh into ieng6. Since we downloaded our public ssh key onto the server, we don’t need to type in our username and password.
+* Next we rm the lab7 directory if there’s already a copy of it.
+*Clone a copy of the github repository
+* Cd into the directory and compile and run the JUNIT tests 
