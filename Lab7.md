@@ -51,3 +51,35 @@ Step 4
 ===
 
 Keys Pressed: `<Ctrl + c> <Ctrl + v>`
+
+![image](https://user-images.githubusercontent.com/106555298/221094929-af1d4999-dd5b-4924-b907-c8f296f52f7a.png)
+
+Explanation: I copied the Junit compile and test commands I had saved.
+
+---
+
+Step 5
+===
+
+Keys Pressed:
+`git add . `
+`Git commit -m “done” `
+
+![image](https://user-images.githubusercontent.com/106555298/221095034-a7f68ad7-25e0-476c-9ce7-3bbfb0eceadb.png)
+
+Explanation: this stages all files to commit and commits ListExamples.java with the message “done”.
+
+---
+
+Step 6
+===
+
+Keys Pressed:
+`Git push`
+
+![image](https://user-images.githubusercontent.com/106555298/221095181-a281298f-b509-44fb-a3eb-86e3d7383db0.png)
+
+
+Explanation: We already had an `ssh` key with github, so we could just push freely without having to provide credentials or specify remote.
+
+
