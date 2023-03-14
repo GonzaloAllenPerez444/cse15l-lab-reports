@@ -74,104 +74,77 @@ Prompt: What are some more interesting ways to alter an ls command?
 Example 5:
 ----
 ```
-grep -i -v "a" China-History.txt
+ls -t
 
-The Chinese Empire
-Under Mongol Rule
-Unity Eludes the Chinese
-Imposing the New Order
+written_2/             FileHelpers.class        URLHandler.class     start.sh           wordcountdir.sh   TestDocSearch.java  DocSearchServer.java
+DocSearchServer.class  Server.class             TestDocSearch.class  results2           find-results.txt  Server.java
+Handler.class          ServerHttpHandler.class  test.sh              find-results2.txt  lib/              README.md
+
 ```
-The flag -v actually inverts the search, which can be equally powerful itself.
-If I was trying to build a novel without the letter A (which is apparently a real things authors like to do like in this cool book [Gadsby](https://www.abebooks.com/books/gadsby-lipogram/)),
- I could look up inspiration from a file in a directory like this, which shows me each line in a file without the letter a.
+Ls -t lists the items in a directory based on modification time; one use case of this is checking if a script actually modified the files you wanted in the correct order. In example 5, I'm trying to get a chronological order of when I worked on each part of the lab. In example 6 below, I was testing a theory that using git clone doesn't clone the author's works in alphabetical order by their names; ls -t proved me wrong!
 
 Example 6:
 ---
 
 ```
-grep -r -v -l  "Fuck"
+ls -t
 
-O:
-OUP/Abernathy/ch1.txt
-OUP/Abernathy/ch14.txt
-OUP/Abernathy/ch15.txt
-OUP/Abernathy/ch2.txt
-OUP/Abernathy/ch3.txt
-OUP/Abernathy/ch6.txt
-OUP/Abernathy/ch7.txt
-OUP/Abernathy/ch8.txt
-OUP/Abernathy/ch9.txt
-OUP/Berk/ch1.txt
-OUP/Berk/ch2.txt
-OUP/Berk/CH4.txt
-OUP/Berk/ch7.txt
-OUP/Castro/chA.txt
-OUP/Castro/chB.txt
-OUP/Castro/chC.txt
-OUP/Castro/chL.txt
-OUP/Castro/chM.txt
-OUP/Castro/chN.txt
-OUP/Castro/chO.txt
-OUP/Castro/chP.txt
-OUP/Castro/chQ.txt
-OUP/Castro/chR.txt
-OUP/Castro/chV.txt
-OUP/Castro/chW.txt
-OUP/Castro/chY.txt
-OUP/Castro/chZ.txt
-OUP/Fletcher/ch1.txt
-OUP/Fletcher/ch10.txt
-OUP/Fletcher/ch2.txt
-OUP/Fletcher/ch5.txt
-OUP/Fletcher/ch6.txt
-OUP/Fletcher/ch9.txt
-OUP/Kauffman/ch1.txt
-OUP/Kauffman/ch10.txt
-OUP/Kauffman/ch3.txt
-OUP/Kauffman/ch4.txt
-OUP/Kauffman/ch5.txt
-OUP/Kauffman/ch6.txt
-OUP/Kauffman/ch7.txt
-OUP/Kauffman/ch8.txt
-OUP/Kauffman/ch9.txt
-OUP/Rybczynski/ch1.txt
-OUP/Rybczynski/ch2.txt
-OUP/Rybczynski/ch3.txt
+Rybczynski/  Kauffman/  Fletcher/  Castro/  Berk/  Abernathy/
+
 ```
 
-If we needed to censor all of our Non-fiction works by returning all chapters without the f-word in them, it would look something like the above; -v inverst the search for everything without the f-word in it. 
 
 
-Option 4: -r
+
+Option 4: ls -R
+
 ---
-Source: man grep
+Source: chatGPT
+
+ls -R is probably the most powerful on this list;it can go beyond the working directory and recursively print out every path on the entire filesystem; this is one of the most efficient ways to get an objective view of an entire filesystem. In example 7, I attempt to see a wide view of how many chapters each author has written, and ls -R presents that in a pretty accessible way.
 
 Example 7:
 ---
 
 ```
-grep -r "Hamburger" 
-travel_guides/berlitz2/Berlin-WhereToGo.txt:Hamburger Bahnhof Museum
+ls -R
+
+./Abernathy:
+ch1.txt  ch14.txt  ch15.txt  ch2.txt  ch3.txt  ch6.txt  ch7.txt  ch8.txt  ch9.txt
+
+./Berk:
+ch1.txt  ch2.txt  CH4.txt  ch7.txt
+
+./Castro:
+chA.txt  chB.txt  chC.txt  chL.txt  chM.txt  chN.txt  chO.txt  chP.txt  chQ.txt  chR.txt  chV.txt  chW.txt  chY.txt  chZ.txt
+
+./Fletcher:
+ch1.txt  ch10.txt  ch2.txt  ch5.txt  ch6.txt  ch9.txt
+
+./Kauffman:
+ch1.txt  ch10.txt  ch3.txt  ch4.txt  ch5.txt  ch6.txt  ch7.txt  ch8.txt  ch9.txt
+
+./Rybczynski:
+ch1.txt  ch2.txt  ch3.txt
+
 ```
 
-The -r flag is absolutely powerful as it lets you recursively search every file in a directory for a word and not just a single file. Here we power through every line in every file in the entire written_2 to find our sacred word "Hamburger", returning a single beautiful file.
+Here I want to see which countries are in the berlitz1 folder vs. the berlitz2 one.
 
 Example 8:
 ---
 
 ```
-Grep -r  -l “Drama”
+ls -R
 
-travel_guides/berlitz1/WhatToGreek.txt
-travel_guides/berlitz1/WhatToMadeira.txt
-travel_guides/berlitz1/WhatToMalaysia.txt
-travel_guides/berlitz1/WhereToFrance.txt
-travel_guides/berlitz1/WhereToIndia.txt
-travel_guides/berlitz2/Bali-WhatToDo.txt
-travel_guides/berlitz2/Boston-WhereToGo.txt
-travel_guides/berlitz2/Poland-WhatToDo.txt
+./berlitz1:
+HandRHawaii.txt        HistoryEdinburgh.txt  HistoryLakeDistrict.txt  IntroIsrael.txt 
+…
+
+./berlitz2:
+Algarve-History.txt      Bahamas-History.txt      Beijing-WhereToGo.txt   California-WhatToDo.txt      China-WhereToGo.txt       Cuba-WhereToGo.txt      PuertoRico-History.txt
+Algarve-Intro.txt        Bahamas-Intro.txt        Berlin-History.txt 
+ 
 
 ```
-
-If you’re a person who can’t get enough gossip and wants to keep up date with all of the ancient drama, this command is for you. It returns every file in the entire directory in which the word "drama" is inside. 
 
